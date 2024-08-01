@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex011</title>
+  </head>
+  <body>
+    <h1>Testando mídia de imagens</h1>
+    <p>
+      <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="Image flexivel">
+      </picture>
+    </p>
+    <hr>
+    <h1>Testando áudio</h1>
+    <audio preload="metadata" controls>
+      <source src="medias/audio.mp3" type="audio/mpeg">
+    </audio>
+    <hr>
+  </body>
