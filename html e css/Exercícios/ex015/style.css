@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* REGRA RESPONSAVEL PELA ACENTUACAO*/
+
+body{
+    background-color: darkturquoise;
+    color: cornflowerblue;
+    font-size: 12pt;
+    font-family: arial;
+}
+
+h1{
+    color: aliceblue;
+}
+
+h2{
+    color: azure;
+}
+
+h3{
+    color: azure;
+}
+
+p{
+    color: black;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
