@@ -1,0 +1,11 @@
+@charset "UTF-8"
+
+/* CONFIGURACAO GLOBAL DAS CSS */
+body {
+
+    /* GRADIENTE */
+    background-image: linear-gradient( to bottom ,#3198e2 , #6D59C0 , #B93590 , #E33F5F , #FDD579);
+
+     /* FUNDO FIXO*/
+    background-attachment: fixed;
+}
