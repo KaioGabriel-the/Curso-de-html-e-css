@@ -1,0 +1,18 @@
+body{
+
+    /* Diz qual fonte deve ser usada naquele local*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2{
+
+    font-family:serif;
+
+    /*MEDIDAS ABSOLUTAS
+    - cm, mm, in-polegada, px, pt, pc
+    
+    MEDIDAS RELATIVAS
+    - em-altura M, ex-altura X, rem, vw, vh, %
+    */
+    font-size: ;
+}
