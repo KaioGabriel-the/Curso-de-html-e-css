@@ -13,6 +13,29 @@ h1, h2{
     
     MEDIDAS RELATIVAS
     - em-altura M, ex-altura X, rem, vw, vh, %
+
+    -16 PX É O TAMANHO PADRAO DA FONTES NO NAVEGADOR = 1 EM
     */
-    font-size: ;
+    font-size: 1em;
+
+    /* 
+    PESO DA FONTE
+
+    - MEDIDADS DE PESO
+    lighter- mais leve, normal, bold - negrito, bolder - mais negrito que negrito
+    VARIAÇÃO NUMERICA - 100 - 900
+    */
+    font-weight: normal;
+
+    /*Diz como será o estilo dqa fonte*/
+    font-style: italic;
+
+    /*Sub.*/
+    text-decoration: underline;
+
+    /*Shorthand font
+    
+    -font-style --> font-weight --> font-size --> font-family*/
+
+    font: italic normal 1em serif;
 }
